@@ -49,6 +49,11 @@ export const TrendsStyled = styled(Trends)`
   padding: 0 20px;
   display: flex;
   flex-direction: column;
+  height: 600px;
+
+  ${mediaQueries[S_BREAKPOINT]} {
+    height: auto;
+  }
 `;
 
 export const ReviewsContainer = styled.div`
