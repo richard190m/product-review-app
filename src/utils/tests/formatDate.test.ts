@@ -1,6 +1,6 @@
 import formatDate from '../formatDate';
 
-describe('FormatDate', () => {
+describe('formatDate', () => {
   test('should return date with rigth format', () => {
     const date = new Date('2022-11-11');
     const dateForamted = formatDate(date);

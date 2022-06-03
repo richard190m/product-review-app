@@ -11,14 +11,14 @@ import sortReviewsByDate from '../../utils/sortReviewsByDate';
 
 const AllReviews = () => {
   const reviewsContext = useContext(ReviewsContext);
-  const reviews = sortReviewsByDate(reviewsContext?.reviews);
+  sortReviewsByDate(reviewsContext?.reviews);
 
   return (
     <AllContainer>
       <Reviews>
         <h2>Reviews</h2>
         <ReviewsContainer>
-          {reviews.map((review, index) => (
+          {reviewsContext?.reviews.map((review, index) => (
             <Review data={review} key={index} />
           ))}
         </ReviewsContainer>

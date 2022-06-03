@@ -47,7 +47,7 @@ export const StarStyled = styled(StarSolid)`
 export const CommentArea = styled.div`
   background-color: #dedede;
   padding: 20px;
-  border-radius: 30px;
+  border-radius: 10px;
 `;
 
 export const Comment = styled.p`

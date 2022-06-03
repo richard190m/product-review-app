@@ -17,6 +17,7 @@ import {
 } from '../../theme/variables';
 import React, { useContext, useEffect, useState } from 'react';
 import { BreakpointContext } from '../../contexts/breakpoint';
+import calcProductRating from '../../utils/calcProductRating';
 import ImageCard from './image-card';
 import MockProduct from '../../mocks/MockProductInfo';
 import ReviewForm from '../review-form';
@@ -31,15 +32,7 @@ const Product = () => {
   const [showReview, setShowReview] = useState(true);
   const { brand, name, description, price } = MockProduct;
   const breakpoint = breakpointContext?.breakpoint || L_BREAKPOINT;
-  const productSumRatings =
-    reviewsContext?.reviews.reduce(
-      (partialSum, review) => partialSum + review.rating,
-      0,
-    ) || 0;
-  const productRating =
-    Math.round(
-      (productSumRatings / (reviewsContext?.reviews.length || 1)) * 10,
-    ) / 10;
+  const productRating = calcProductRating(reviewsContext?.reviews);
 
   useEffect(() => {
     if (breakpoint === S_BREAKPOINT || breakpoint === M_BREAKPOINT) {

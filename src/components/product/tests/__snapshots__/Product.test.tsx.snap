@@ -6,15 +6,15 @@ exports[`Product should render correctly 1`] = `
     class="sc-bczRLJ eUMUfx"
   >
     <div
-      class="sc-ftvSup jgoIed"
+      class="sc-jqUVSM IxpDt"
     >
       <img
         alt="New Collection Shoes"
-        class="sc-papXJ kGzhVz"
+        class="sc-kDDrLX fdbSyR"
         src="https://source.unsplash.com/random/700x700/?shoes"
       />
       <span
-        class="sc-jqUVSM eiAGhe"
+        class="sc-iqcoie exyBrQ"
       >
         BRAND NAME
       </span>
@@ -28,13 +28,28 @@ exports[`Product should render correctly 1`] = `
         <h1>
           NEW COLLECTION SHOES
         </h1>
-        <span
-          class="sc-iBkjds fkgdlf"
+        <div
+          class="sc-ftvSup gfmphw"
         >
-          (
-          3.3 of 5 start
-          )
-        </span>
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-papXJ dkOxRR"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+            />
+          </svg>
+          3.3
+          <span
+            class="sc-iBkjds kgqTNU"
+          >
+             /5 starts
+          </span>
+        </div>
         <div
           class="sc-hKMtZM hBbZGS"
         >
@@ -62,19 +77,19 @@ exports[`Product should render correctly 1`] = `
           </span>
         </span>
         <div
-          class="sc-kDDrLX iuImlR"
+          class="sc-crXcEl kwWQQH"
           data-testid="review-form"
         >
           <form
-            class="sc-evZas gHCSVc"
+            class="sc-ksZaOG mPWKU"
             data-testid="form"
           >
             <label
-              class="sc-fEOsli cItBsc"
+              class="sc-idiyUo kYDcEV"
             >
               Name:
               <input
-                class="sc-bjUoiL faIaSM"
+                class="sc-dIouRR cldldk"
                 name="name"
                 placeholder="Name"
                 required=""
@@ -83,11 +98,11 @@ exports[`Product should render correctly 1`] = `
               />
             </label>
             <label
-              class="sc-fEOsli cItBsc"
+              class="sc-idiyUo kYDcEV"
             >
               Email:
               <input
-                class="sc-bjUoiL faIaSM"
+                class="sc-dIouRR cldldk"
                 name="email"
                 placeholder="Email"
                 required=""
@@ -96,13 +111,13 @@ exports[`Product should render correctly 1`] = `
               />
             </label>
             <label
-              class="sc-fEOsli cItBsc"
+              class="sc-idiyUo kYDcEV"
             >
               Rating:
               <div>
                 <svg
                   aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
                   data-testid="ranking-0"
                   fill="currentColor"
                   focusable="false"
@@ -115,7 +130,7 @@ exports[`Product should render correctly 1`] = `
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
                   data-testid="ranking-1"
                   fill="currentColor"
                   focusable="false"
@@ -128,7 +143,7 @@ exports[`Product should render correctly 1`] = `
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
                   data-testid="ranking-2"
                   fill="currentColor"
                   focusable="false"
@@ -141,7 +156,7 @@ exports[`Product should render correctly 1`] = `
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
                   data-testid="ranking-3"
                   fill="currentColor"
                   focusable="false"
@@ -154,7 +169,7 @@ exports[`Product should render correctly 1`] = `
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
                   data-testid="ranking-4"
                   fill="currentColor"
                   focusable="false"
@@ -168,11 +183,11 @@ exports[`Product should render correctly 1`] = `
               </div>
             </label>
             <label
-              class="sc-fEOsli cItBsc"
+              class="sc-idiyUo kYDcEV"
             >
               Title:
               <input
-                class="sc-bjUoiL faIaSM"
+                class="sc-dIouRR cldldk"
                 name="title"
                 placeholder="Comment Title"
                 required=""
@@ -181,11 +196,11 @@ exports[`Product should render correctly 1`] = `
               />
             </label>
             <label
-              class="sc-fEOsli cItBsc"
+              class="sc-idiyUo kYDcEV"
             >
               Comment:
               <textarea
-                class="sc-idiyUo isBeHw"
+                class="sc-hHLeRK kjorXz"
                 name="comment"
                 placeholder="Comment"
                 required=""
@@ -193,19 +208,19 @@ exports[`Product should render correctly 1`] = `
               />
             </label>
             <p
-              class="sc-breuTD fEGZDW"
+              class="sc-hAZoDl jnwinC"
               data-testid="error-msg"
             />
             <div
-              class="sc-ksZaOG jRmgAk"
+              class="sc-fnykZs kYTebw"
             >
               <input
-                class="sc-hAZoDl dkwFTL"
+                class="sc-fEOsli gXfiCh"
                 type="submit"
                 value="Save review"
               />
               <button
-                class="sc-fnykZs jvLVjt"
+                class="sc-bjUoiL eNsYzF"
               >
                 Clear review
               </button>
