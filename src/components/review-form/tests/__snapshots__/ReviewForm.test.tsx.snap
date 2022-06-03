@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewsForm should render correctly 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ iuLmvH"
+    data-testid="review-form"
+  >
+    <form
+      class="sc-hKMtZM cfGbOi"
+      data-testid="form"
+    >
+      <label
+        class="sc-ftvSup cTaIlw"
+      >
+        Name:
+        <input
+          class="sc-papXJ brxqLU"
+          name="name"
+          placeholder="Name"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        class="sc-ftvSup cTaIlw"
+      >
+        Email:
+        <input
+          class="sc-papXJ brxqLU"
+          name="email"
+          placeholder="Email"
+          required=""
+          type="email"
+          value=""
+        />
+      </label>
+      <label
+        class="sc-ftvSup cTaIlw"
+      >
+        Rating:
+        <div>
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            data-testid="ranking-0"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            data-testid="ranking-1"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            data-testid="ranking-2"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            data-testid="ranking-3"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            data-testid="ranking-4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+            />
+          </svg>
+        </div>
+      </label>
+      <label
+        class="sc-ftvSup cTaIlw"
+      >
+        Title:
+        <input
+          class="sc-papXJ brxqLU"
+          name="title"
+          placeholder="Comment Title"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        class="sc-ftvSup cTaIlw"
+      >
+        Comment:
+        <textarea
+          class="sc-jqUVSM kHqxWB"
+          name="comment"
+          placeholder="Comment"
+          required=""
+          rows="3"
+        />
+      </label>
+      <p
+        class="sc-eCYdqJ gubPie"
+        data-testid="error-msg"
+      />
+      <div
+        class="sc-jSMfEi cnrVoF"
+      >
+        <input
+          class="sc-gKXOVf biPGXY"
+          type="submit"
+          value="Save review"
+        />
+        <button
+          class="sc-iBkjds eqCWbf"
+        >
+          Clear review
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product should render correctly 1`] = `
+<div>
+  <section
+    class="sc-bczRLJ eUMUfx"
+  >
+    <div
+      class="sc-ftvSup jgoIed"
+    >
+      <img
+        alt="New Collection Shoes"
+        class="sc-papXJ kGzhVz"
+        src="https://source.unsplash.com/random/700x700/?shoes"
+      />
+      <span
+        class="sc-jqUVSM eiAGhe"
+      >
+        BRAND NAME
+      </span>
+    </div>
+    <div
+      class="sc-gKXOVf YVohq"
+    >
+      <div
+        class="sc-gsnTZi avcHX"
+      >
+        <h1>
+          NEW COLLECTION SHOES
+        </h1>
+        <span
+          class="sc-iBkjds fkgdlf"
+        >
+          (
+          3.3 of 5 start
+          )
+        </span>
+        <div
+          class="sc-hKMtZM hBbZGS"
+        >
+          <h3>
+            DESCRIPTION
+          </h3>
+          <span
+            class="sc-eCYdqJ jeXZll"
+            data-testid="plus-minus-description"
+          >
+            +
+          </span>
+        </div>
+        <span
+          class="sc-jSMfEi dnCBFt"
+        >
+          <h3>
+            MAKE A REVIEW
+          </h3>
+          <span
+            class="sc-eCYdqJ jeXZll"
+            data-testid="plus-minus-review"
+          >
+            -
+          </span>
+        </span>
+        <div
+          class="sc-kDDrLX iuImlR"
+          data-testid="review-form"
+        >
+          <form
+            class="sc-evZas gHCSVc"
+            data-testid="form"
+          >
+            <label
+              class="sc-fEOsli cItBsc"
+            >
+              Name:
+              <input
+                class="sc-bjUoiL faIaSM"
+                name="name"
+                placeholder="Name"
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+            <label
+              class="sc-fEOsli cItBsc"
+            >
+              Email:
+              <input
+                class="sc-bjUoiL faIaSM"
+                name="email"
+                placeholder="Email"
+                required=""
+                type="email"
+                value=""
+              />
+            </label>
+            <label
+              class="sc-fEOsli cItBsc"
+            >
+              Rating:
+              <div>
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  data-testid="ranking-0"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  data-testid="ranking-1"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  data-testid="ranking-2"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  data-testid="ranking-3"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-crXcEl eUFFki"
+                  data-testid="ranking-4"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+                  />
+                </svg>
+              </div>
+            </label>
+            <label
+              class="sc-fEOsli cItBsc"
+            >
+              Title:
+              <input
+                class="sc-bjUoiL faIaSM"
+                name="title"
+                placeholder="Comment Title"
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+            <label
+              class="sc-fEOsli cItBsc"
+            >
+              Comment:
+              <textarea
+                class="sc-idiyUo isBeHw"
+                name="comment"
+                placeholder="Comment"
+                required=""
+                rows="3"
+              />
+            </label>
+            <p
+              class="sc-breuTD fEGZDW"
+              data-testid="error-msg"
+            />
+            <div
+              class="sc-ksZaOG jRmgAk"
+            >
+              <input
+                class="sc-hAZoDl dkwFTL"
+                type="submit"
+                value="Save review"
+              />
+              <button
+                class="sc-fnykZs jvLVjt"
+              >
+                Clear review
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

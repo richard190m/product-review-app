@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trends should render correctly 1`] = `
+<div>
+  <div>
+    <h2
+      class="sc-dkzDqf ia-DSOb"
+    >
+      Trends
+    </h2>
+    <div
+      class="sc-bczRLJ emMGHK"
+    >
+      <button
+        class="sc-gsnTZi cYybaM"
+        data-testid="all-reviews-button"
+        disabled=""
+      >
+        All reviews
+      </button>
+      <button
+        class="sc-gsnTZi cYybaM"
+        data-testid="6months-button"
+      >
+        6 Months Chart
+      </button>
+    </div>
+    <div
+      class="sc-hKMtZM kOHBsS"
+    >
+      <div
+        data-testid="doughnut-chart"
+      >
+        Doughnut Chart
+      </div>
+    </div>
+  </div>
+</div>
+`;

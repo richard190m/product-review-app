@@ -1,11 +1,12 @@
 {
   "env": {
     "es6": true,
-    "jest": true
+    "jest": true,
+    "node": true
   },
   "extends": [
     "eslint:recommended",
-    "prettier",
+    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
@@ -57,12 +58,4 @@
       { "functions": true, "classes": true, "variables": true }
     ]
   }
-  // "overrides": [
-  //   {
-  //     "files": ["*.test.js"],
-  //     "rules": {
-  //       "no-import-assign": "off"
-  //     }
-  //   }
-  // ]
 }
