@@ -1,4 +1,6 @@
 import {
+  buttonStyles,
+  colors,
   L_BREAKPOINT,
   M_BREAKPOINT,
   mediaQueries,
@@ -10,9 +12,11 @@ import styled from 'styled-components';
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
+  height: 600px;
 
   ${mediaQueries[S_BREAKPOINT]} {
-    height: 500px;
+    height: fit-content;
+    min-height: 600px;
     flex-direction: row;
 
     & > div {
@@ -20,49 +24,53 @@ export const Container = styled.section`
     }
   }
 
-  ${mediaQueries[M_BREAKPOINT]} {
-    height: 700px;
+  ${mediaQueries[L_BREAKPOINT]} {
+    height: 600px;
   }
 
   ${mediaQueries[L_BREAKPOINT]} {
-    height: 1000px;
+    height: 800px;
   }
 `;
 
+export const ProductName = styled.h1`
+  font-size: 50px;
+  margin-bottom: 10px;
+`;
+
 export const ProductDesciptionReview = styled.div`
-  width: 100%;
-  padding: 30px;
-  overflow: auto;
-  background-color: white;
-  border-radius: 30px;
+  width: 90%;
+  align-self: center;
+  position: absolute;
+  z-index: 1;
 
   ${mediaQueries[S_BREAKPOINT]} {
-    border-radius: 30px 0 0 30px;
+    position: relative;
+    margin: 30px;
+  }
+
+  ${mediaQueries[M_BREAKPOINT]} {
+    margin: 0;
   }
 `;
 
 export const ProductDesciption = styled.p`
   font-weight: 300;
+  padding-bottom: 20px;
 `;
 
+export const ProductBrand = styled.p`
+  font-weight: 300;
+  color: ${colors.gray};
+`;
 export const DescriptionContainer = styled.div`
-  display: flex;
-  align-items: center;
+  padding: 30px 0;
 `;
 
 export const PlusMinusIcon = styled.span`
   font-size: 20px;
   padding-left: 20px;
   cursor: pointer;
-`;
-
-export const ReviewTitleContainer = styled.span`
-  display: flex;
-  align-items: center;
-`;
-
-export const ProductCard = styled.div`
-  display: flex;
 `;
 
 export const InRating = styled.span`
@@ -79,6 +87,12 @@ export const Rating = styled.div`
 
 export const StarMain = styled(Star)`
   width: 30px;
-  color: #febd09;
+  color: ${colors.yellow};
   padding-right: 5px;
+`;
+
+export const ReviewButton = styled.a`
+  ${buttonStyles}
+  background-color: ${colors.lightOrange};
+  color: white;
 `;

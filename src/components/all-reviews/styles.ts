@@ -5,18 +5,14 @@ import {
   S_BREAKPOINT,
 } from '../../theme/variables';
 import styled from 'styled-components';
-import Trends from '../trends';
 
 export const AllContainer = styled.section`
   display: flex;
   flex-direction: column;
-  background-color: white;
-  border-radius: 30px;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 30px;
 
   ${mediaQueries[S_BREAKPOINT]} {
-    height: 500px;
+    height: 600px;
     flex-direction: row;
 
     & > div {
@@ -34,26 +30,12 @@ export const AllContainer = styled.section`
 `;
 
 export const Reviews = styled.div`
-  padding: 0 20px;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #dedede;
-
-  ${mediaQueries[S_BREAKPOINT]} {
-    border-right: 1px solid #dedede;
-    border-bottom: 0;
-  }
 `;
 
-export const TrendsStyled = styled(Trends)`
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-
-  ${mediaQueries[S_BREAKPOINT]} {
-    height: auto;
-  }
+export const ReviewsTitle = styled.h2`
+  text-align: right;
 `;
 
 export const ReviewsContainer = styled.div`

@@ -3,12 +3,17 @@
 exports[`AllReviews should render correctly 1`] = `
 <div>
   <section
-    class="sc-bczRLJ eemIpn"
+    class="sc-bczRLJ gfZxCj"
   >
+    <div>
+      Trends
+    </div>
     <div
-      class="sc-gsnTZi cFgCqY"
+      class="sc-gsnTZi crCdMa"
     >
-      <h2>
+      <h2
+        class="sc-dkzDqf ia-DSOb"
+      >
         Reviews
       </h2>
       <div
@@ -18,7 +23,7 @@ exports[`AllReviews should render correctly 1`] = `
           class="sc-eCYdqJ iyiAJB"
         >
           <div
-            class="sc-jSMfEi cxMpge"
+            class="sc-jSMfEi hqGeFC"
           >
             <svg
               aria-hidden="true"
@@ -57,7 +62,7 @@ exports[`AllReviews should render correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -69,7 +74,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -81,7 +86,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -93,7 +98,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -105,7 +110,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -122,13 +127,13 @@ exports[`AllReviews should render correctly 1`] = `
               </span>
             </p>
             <div
-              class="sc-iqcoie gAUmKf"
+              class="sc-iqcoie fBFmjD"
             >
               <p>
                 Good product
               </p>
               <p
-                class="sc-crXcEl gQMZmj"
+                class="sc-crXcEl egjkPQ"
               >
                 Best product I ever used
               </p>
@@ -139,7 +144,7 @@ exports[`AllReviews should render correctly 1`] = `
           class="sc-eCYdqJ iyiAJB"
         >
           <div
-            class="sc-jSMfEi cxMpge"
+            class="sc-jSMfEi hqGeFC"
           >
             <svg
               aria-hidden="true"
@@ -178,7 +183,7 @@ exports[`AllReviews should render correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -190,7 +195,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -202,7 +207,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -214,7 +219,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX ghEnkw"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX kgywIf"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -226,7 +231,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX ghEnkw"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX kgywIf"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -243,13 +248,13 @@ exports[`AllReviews should render correctly 1`] = `
               </span>
             </p>
             <div
-              class="sc-iqcoie gAUmKf"
+              class="sc-iqcoie fBFmjD"
             >
               <p>
                 Not bad, not good
               </p>
               <p
-                class="sc-crXcEl gQMZmj"
+                class="sc-crXcEl egjkPQ"
               >
                 It's a product that can do the job.
               </p>
@@ -260,7 +265,7 @@ exports[`AllReviews should render correctly 1`] = `
           class="sc-eCYdqJ iyiAJB"
         >
           <div
-            class="sc-jSMfEi cxMpge"
+            class="sc-jSMfEi hqGeFC"
           >
             <svg
               aria-hidden="true"
@@ -299,7 +304,7 @@ exports[`AllReviews should render correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -311,7 +316,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM gKbZDu"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-jqUVSM hyUBXN"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -323,7 +328,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX ghEnkw"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX kgywIf"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -335,7 +340,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX ghEnkw"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX kgywIf"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -347,7 +352,7 @@ exports[`AllReviews should render correctly 1`] = `
               </svg>
               <svg
                 aria-hidden="true"
-                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX ghEnkw"
+                class="StyledIconBase-ea9ulj-0 lbJwfL sc-kDDrLX kgywIf"
                 fill="currentColor"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -364,13 +369,13 @@ exports[`AllReviews should render correctly 1`] = `
               </span>
             </p>
             <div
-              class="sc-iqcoie gAUmKf"
+              class="sc-iqcoie fBFmjD"
             >
               <p>
                 Not so good product
               </p>
               <p
-                class="sc-crXcEl gQMZmj"
+                class="sc-crXcEl egjkPQ"
               >
                 Not recomended...
               </p>
@@ -378,9 +383,6 @@ exports[`AllReviews should render correctly 1`] = `
           </div>
         </div>
       </div>
-    </div>
-    <div>
-      Trends
     </div>
   </section>
 </div>

@@ -1,76 +1,89 @@
-import { M_BREAKPOINT, mediaQueries } from '../../theme/variables';
-import styled, { css } from 'styled-components';
+import {
+  buttonStyles,
+  colors,
+  mediaQueries,
+  S_BREAKPOINT,
+} from '../../theme/variables';
 import { ReviewContainerProps } from './types';
 import { Star as StarSolid } from '@styled-icons/boxicons-solid';
+import styled from 'styled-components';
 
-const buttonStyles = css`
-  width: 50%;
-  padding: 10px 20px;
-  font-size: 16px;
-  flex: 1;
+export const Container = styled.section<ReviewContainerProps>`
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 50px;
 `;
 
-export const Container = styled.div<ReviewContainerProps>`
-  display: ${({ show }) => (show ? 'block' : 'none')};
+export const Title = styled.h2`
+  align-self: left;
+  font-size: 30px;
 `;
 
 export const StarFilled = styled(StarSolid)`
   width: 30px;
-  color: #febd09;
+  color: ${colors.yellow};
 `;
 
 export const StarStyled = styled(StarSolid)`
   width: 30px;
-  color: #ededed;
+  color: ${colors.lightGray};
 `;
 
 export const FormStyled = styled.form`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;
 
 export const Error = styled.p`
   color: red;
 `;
 
-export const ButtonsContainer = styled.div`
-  display: flex;
-  width: 100%;
-
-  ${mediaQueries[M_BREAKPOINT]} {
-    max-width: 500px;
-  }
-`;
+export const ButtonsContainer = styled.div``;
 
 export const SubmitButton = styled.input`
   ${buttonStyles}
-  background-color: black;
-  color: white;
+  background-color: ${colors.lightOrange};
+  color: ${colors.white};
   cursor: pointer;
+  margin-right: 20px;
+
+  ${mediaQueries[S_BREAKPOINT]} {
+    width: 200px;
+  }
 `;
 
 export const ClearButton = styled.button`
   ${buttonStyles}
-  background-color: white;
+  background-color: ${colors.white};
   color: black;
-  margin-left: 20px;
   cursor: pointer;
+
+  ${mediaQueries[S_BREAKPOINT]} {
+    width: 200px;
+  }
 `;
 
 export const LabelStyled = styled.label`
   display: flex;
   flex-direction: column;
-  padding-top: 10px;
+  padding-top: 20px;
 `;
 
 export const InputStyled = styled.input`
   margin-top: 5px;
   padding: 10px;
-  width: 50%;
+
+  ${mediaQueries[S_BREAKPOINT]} {
+    width: 50%;
+  }
 `;
 
 export const Textarea = styled.textarea`
-  width: 90%;
   margin-top: 5px;
   padding: 10px;
+
+  ${mediaQueries[S_BREAKPOINT]} {
+    width: 60%;
+  }
 `;

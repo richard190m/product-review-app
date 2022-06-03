@@ -104,6 +104,7 @@ const SixMonthsChart = () => {
         fill: true,
         backgroundColor: `rgba(${backgroundColorRandomR}, ${backgroundColorRandomG}, ${backgroundColorRandomB}, 0.2)`,
         borderColor: `rgba(${backgroundColorRandomR}, ${backgroundColorRandomG}, ${backgroundColorRandomB}, 1)`,
+        color: 'rgb(0,0,0)',
       };
     });
 

@@ -8,7 +8,3 @@ export interface DatasetsType {
 export interface ReviewsByRating {
   [key: string]: Review[];
 }
-
-export interface TrendsProps {
-  className?: string;
-}

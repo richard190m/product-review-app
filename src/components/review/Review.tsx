@@ -13,7 +13,7 @@ import {
   StarStyled,
 } from './styles';
 import React, { useEffect, useState } from 'react';
-import formatDate from '../../../utils/formatDate';
+import formatDate from '../../utils/formatDate';
 import PropTypes from 'prop-types';
 import { ReviewProps } from './types';
 

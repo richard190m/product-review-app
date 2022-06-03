@@ -1,3 +1,4 @@
+// Include 0 at start if number passed is bellow 10
 const pad = (d: number) => {
   return d < 10 ? '0' + d.toString() : d.toString();
 };
