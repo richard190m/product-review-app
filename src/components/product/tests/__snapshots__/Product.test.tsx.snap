@@ -3,231 +3,69 @@
 exports[`Product should render correctly 1`] = `
 <div>
   <section
-    class="sc-bczRLJ eUMUfx"
+    class="sc-bczRLJ ivcAgi"
   >
     <div
-      class="sc-jqUVSM IxpDt"
+      class="sc-dkzDqf imValF"
     >
-      <img
-        alt="New Collection Shoes"
-        class="sc-kDDrLX fdbSyR"
-        src="https://source.unsplash.com/random/700x700/?shoes"
-      />
-      <span
-        class="sc-iqcoie exyBrQ"
+      <h1
+        class="sc-gsnTZi dYRvFZ"
+      >
+        NEW COLLECTION SHOES
+      </h1>
+      <p
+        class="sc-eCYdqJ lkgqUi"
       >
         BRAND NAME
-      </span>
+      </p>
+      <div
+        class="sc-ftvSup gfmphw"
+      >
+        <svg
+          aria-hidden="true"
+          class="StyledIconBase-ea9ulj-0 lbJwfL sc-papXJ cBWJbq"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
+          />
+        </svg>
+        3.3
+        <span
+          class="sc-iBkjds kgqTNU"
+        >
+           /5 starts
+        </span>
+      </div>
+      <div
+        class="sc-jSMfEi fhEiGU"
+        data-testid="description"
+      >
+        <p
+          class="sc-hKMtZM jZlNPe"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut justo urna, efficitur et tempus non, condimentum nec eros. Aenean a nisi eget lectus tincidunt egestas et in odio. In sagittis a nunc ut tincidunt. Sed finibus convallis elit quis vestibulum.
+        </p>
+        <p>
+          100$
+        </p>
+      </div>
+      <a
+        class="sc-jqUVSM fWCZwB"
+        href="#review-form"
+      >
+        Review Product
+      </a>
     </div>
     <div
-      class="sc-gKXOVf YVohq"
+      class="sc-kDDrLX eHzIDo"
     >
       <div
-        class="sc-gsnTZi avcHX"
-      >
-        <h1>
-          NEW COLLECTION SHOES
-        </h1>
-        <div
-          class="sc-ftvSup gfmphw"
-        >
-          <svg
-            aria-hidden="true"
-            class="StyledIconBase-ea9ulj-0 lbJwfL sc-papXJ dkOxRR"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
-            />
-          </svg>
-          3.3
-          <span
-            class="sc-iBkjds kgqTNU"
-          >
-             /5 starts
-          </span>
-        </div>
-        <div
-          class="sc-hKMtZM hBbZGS"
-        >
-          <h3>
-            DESCRIPTION
-          </h3>
-          <span
-            class="sc-eCYdqJ jeXZll"
-            data-testid="plus-minus-description"
-          >
-            +
-          </span>
-        </div>
-        <span
-          class="sc-jSMfEi dnCBFt"
-        >
-          <h3>
-            MAKE A REVIEW
-          </h3>
-          <span
-            class="sc-eCYdqJ jeXZll"
-            data-testid="plus-minus-review"
-          >
-            -
-          </span>
-        </span>
-        <div
-          class="sc-crXcEl kwWQQH"
-          data-testid="review-form"
-        >
-          <form
-            class="sc-ksZaOG mPWKU"
-            data-testid="form"
-          >
-            <label
-              class="sc-idiyUo kYDcEV"
-            >
-              Name:
-              <input
-                class="sc-dIouRR cldldk"
-                name="name"
-                placeholder="Name"
-                required=""
-                type="text"
-                value=""
-              />
-            </label>
-            <label
-              class="sc-idiyUo kYDcEV"
-            >
-              Email:
-              <input
-                class="sc-dIouRR cldldk"
-                name="email"
-                placeholder="Email"
-                required=""
-                type="email"
-                value=""
-              />
-            </label>
-            <label
-              class="sc-idiyUo kYDcEV"
-            >
-              Rating:
-              <div>
-                <svg
-                  aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
-                  data-testid="ranking-0"
-                  fill="currentColor"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
-                  />
-                </svg>
-                <svg
-                  aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
-                  data-testid="ranking-1"
-                  fill="currentColor"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
-                  />
-                </svg>
-                <svg
-                  aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
-                  data-testid="ranking-2"
-                  fill="currentColor"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
-                  />
-                </svg>
-                <svg
-                  aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
-                  data-testid="ranking-3"
-                  fill="currentColor"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
-                  />
-                </svg>
-                <svg
-                  aria-hidden="true"
-                  class="StyledIconBase-ea9ulj-0 lbJwfL sc-breuTD haQBHV"
-                  data-testid="ranking-4"
-                  fill="currentColor"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"
-                  />
-                </svg>
-              </div>
-            </label>
-            <label
-              class="sc-idiyUo kYDcEV"
-            >
-              Title:
-              <input
-                class="sc-dIouRR cldldk"
-                name="title"
-                placeholder="Comment Title"
-                required=""
-                type="text"
-                value=""
-              />
-            </label>
-            <label
-              class="sc-idiyUo kYDcEV"
-            >
-              Comment:
-              <textarea
-                class="sc-hHLeRK kjorXz"
-                name="comment"
-                placeholder="Comment"
-                required=""
-                rows="3"
-              />
-            </label>
-            <p
-              class="sc-hAZoDl jnwinC"
-              data-testid="error-msg"
-            />
-            <div
-              class="sc-fnykZs kYTebw"
-            >
-              <input
-                class="sc-fEOsli gXfiCh"
-                type="submit"
-                value="Save review"
-              />
-              <button
-                class="sc-bjUoiL eNsYzF"
-              >
-                Clear review
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+        class="sc-iqcoie iYeNCs"
+      />
     </div>
   </section>
 </div>

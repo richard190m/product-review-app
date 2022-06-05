@@ -1,11 +1,9 @@
-import { Brand, Container, Img } from './styles';
+import { Container, Img } from './styles';
 import React, { useContext, useEffect, useState } from 'react';
-import { BreakpointContext } from '../../../contexts/breakpoint';
-import { ImageCardProps } from './types';
-import imageSizes from '../../../utils/imageSizes';
-import PropTypes from 'prop-types';
+import { BreakpointContext } from '../../contexts/breakpoint';
+import imageSizes from '../../utils/imageSizes';
 
-const ImageCarousel = ({ brand, alt }: ImageCardProps) => {
+const ImageCarousel = () => {
   const breakpointContext = useContext(BreakpointContext);
   const [productImageUrl, setProductImageUrl] = useState('');
 
@@ -21,15 +19,9 @@ const ImageCarousel = ({ brand, alt }: ImageCardProps) => {
 
   return (
     <Container>
-      <Img src={productImageUrl} alt={alt} />
-      <Brand>{brand}</Brand>
+      <Img url={productImageUrl} />
     </Container>
   );
-};
-
-ImageCarousel.propTypes = {
-  brand: PropTypes.string,
-  alt: PropTypes.string.isRequired,
 };
 
 export default ImageCarousel;

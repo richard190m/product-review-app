@@ -2,9 +2,11 @@
 
 exports[`Trends should render correctly 1`] = `
 <div>
-  <div>
+  <div
+    class="sc-gsnTZi gnbPLf"
+  >
     <h2
-      class="sc-dkzDqf ia-DSOb"
+      class="sc-hKMtZM"
     >
       Trends
     </h2>
@@ -12,21 +14,21 @@ exports[`Trends should render correctly 1`] = `
       class="sc-bczRLJ emMGHK"
     >
       <button
-        class="sc-gsnTZi cYybaM"
+        class="sc-dkzDqf jDbBST"
         data-testid="all-reviews-button"
         disabled=""
       >
         All reviews
       </button>
       <button
-        class="sc-gsnTZi cYybaM"
+        class="sc-dkzDqf jDbBST"
         data-testid="6months-button"
       >
         6 Months Chart
       </button>
     </div>
     <div
-      class="sc-hKMtZM eoiUwz"
+      class="sc-eCYdqJ dRQMdk"
     >
       <div
         data-testid="doughnut-chart"

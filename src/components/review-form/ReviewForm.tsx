@@ -10,6 +10,7 @@ import {
   StarStyled,
   SubmitButton,
   Textarea,
+  Title,
 } from './styles';
 import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
@@ -41,12 +42,12 @@ const ReviewForm = ({ visible = true }) => {
 
   const isFormValid = () => {
     if (!valideEmail(values.email)) {
-      setFormError('Email is not valid!');
+      setFormError('* Email is not valid!');
       return false;
     }
 
     if (!valideRanking()) {
-      setFormError('Ranking is required!');
+      setFormError('* Ranking is required!');
       return false;
     }
 
@@ -90,7 +91,8 @@ const ReviewForm = ({ visible = true }) => {
   };
 
   return (
-    <Container show={visible} data-testid="review-form">
+    <Container show={visible} data-testid="review-form" id="review-form">
+      <Title>Make a review</Title>
       <FormStyled onSubmit={handleFormSubmit} data-testid="form">
         <LabelStyled>
           Name:
@@ -152,7 +154,7 @@ const ReviewForm = ({ visible = true }) => {
             value={values.comment}
             onChange={onChangeTextArea}
             placeholder="Comment"
-            rows={3}
+            rows={5}
             required
           />
         </LabelStyled>

@@ -1,13 +1,17 @@
-import { ChartsContainer, Menu, MenuButton, TrendsTitle } from './styles';
+import {
+  ChartsContainer,
+  Container,
+  Menu,
+  MenuButton,
+  TrendsTitle,
+} from './styles';
 import React, { useState } from 'react';
 import AllReviewsChart from './all-reviews-chart';
-import PropTypes from 'prop-types';
 import SixMonthsChart from './six-months-chart';
-import { TrendsProps } from './types';
 
 const Charts = ['allReviews', '6months'];
 
-const Trends = ({ className }: TrendsProps) => {
+const Trends = () => {
   const [chartToShow, setChartToShow] = useState(Charts[0]);
 
   const handleClick = (chart: string) => {
@@ -15,7 +19,7 @@ const Trends = ({ className }: TrendsProps) => {
   };
 
   return (
-    <div className={className}>
+    <Container>
       <TrendsTitle>Trends</TrendsTitle>
       <Menu>
         <MenuButton
@@ -36,12 +40,8 @@ const Trends = ({ className }: TrendsProps) => {
       <ChartsContainer>
         {chartToShow === Charts[0] ? <AllReviewsChart /> : <SixMonthsChart />}
       </ChartsContainer>
-    </div>
+    </Container>
   );
-};
-
-Trends.propTypes = {
-  className: PropTypes.string,
 };
 
 export default Trends;

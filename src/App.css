@@ -2,20 +2,31 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Spline Sans Mono', monospace;
-  background-color: #ededed;
+  background-color: #020d18;
+  color: white;
 }
 
 input {
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid black;
 }
 
 textarea {
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid;
 }
 
 button {
-  border-radius: 10px;
   border: 1px solid black;
+}
+
+section {
+  max-width: 1150px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.otherColorContainer {
+  background-color: #0f2133;
 }

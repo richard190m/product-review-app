@@ -2,20 +2,26 @@
 
 exports[`ReviewsForm should render correctly 1`] = `
 <div>
-  <div
-    class="sc-bczRLJ iuLmvH"
+  <section
+    class="sc-bczRLJ lgcmkL"
     data-testid="review-form"
+    id="review-form"
   >
+    <h2
+      class="sc-gsnTZi jmhcOB"
+    >
+      Make a review
+    </h2>
     <form
-      class="sc-hKMtZM cfGbOi"
+      class="sc-eCYdqJ jbKeIe"
       data-testid="form"
     >
       <label
-        class="sc-ftvSup cTaIlw"
+        class="sc-papXJ ctIDlK"
       >
         Name:
         <input
-          class="sc-papXJ brxqLU"
+          class="sc-jqUVSM kskcnJ"
           name="name"
           placeholder="Name"
           required=""
@@ -24,11 +30,11 @@ exports[`ReviewsForm should render correctly 1`] = `
         />
       </label>
       <label
-        class="sc-ftvSup cTaIlw"
+        class="sc-papXJ ctIDlK"
       >
         Email:
         <input
-          class="sc-papXJ brxqLU"
+          class="sc-jqUVSM kskcnJ"
           name="email"
           placeholder="Email"
           required=""
@@ -37,13 +43,13 @@ exports[`ReviewsForm should render correctly 1`] = `
         />
       </label>
       <label
-        class="sc-ftvSup cTaIlw"
+        class="sc-papXJ ctIDlK"
       >
         Rating:
         <div>
           <svg
             aria-hidden="true"
-            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-hKMtZM douAxb"
             data-testid="ranking-0"
             fill="currentColor"
             focusable="false"
@@ -56,7 +62,7 @@ exports[`ReviewsForm should render correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-hKMtZM douAxb"
             data-testid="ranking-1"
             fill="currentColor"
             focusable="false"
@@ -69,7 +75,7 @@ exports[`ReviewsForm should render correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-hKMtZM douAxb"
             data-testid="ranking-2"
             fill="currentColor"
             focusable="false"
@@ -82,7 +88,7 @@ exports[`ReviewsForm should render correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-hKMtZM douAxb"
             data-testid="ranking-3"
             fill="currentColor"
             focusable="false"
@@ -95,7 +101,7 @@ exports[`ReviewsForm should render correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            class="StyledIconBase-ea9ulj-0 lbJwfL sc-dkzDqf flVVSf"
+            class="StyledIconBase-ea9ulj-0 lbJwfL sc-hKMtZM douAxb"
             data-testid="ranking-4"
             fill="currentColor"
             focusable="false"
@@ -109,11 +115,11 @@ exports[`ReviewsForm should render correctly 1`] = `
         </div>
       </label>
       <label
-        class="sc-ftvSup cTaIlw"
+        class="sc-papXJ ctIDlK"
       >
         Title:
         <input
-          class="sc-papXJ brxqLU"
+          class="sc-jqUVSM kskcnJ"
           name="title"
           placeholder="Comment Title"
           required=""
@@ -122,36 +128,36 @@ exports[`ReviewsForm should render correctly 1`] = `
         />
       </label>
       <label
-        class="sc-ftvSup cTaIlw"
+        class="sc-papXJ ctIDlK"
       >
         Comment:
         <textarea
-          class="sc-jqUVSM kHqxWB"
+          class="sc-kDDrLX gmFA-DR"
           name="comment"
           placeholder="Comment"
           required=""
-          rows="3"
+          rows="5"
         />
       </label>
       <p
-        class="sc-eCYdqJ gubPie"
+        class="sc-jSMfEi gelXOA"
         data-testid="error-msg"
       />
       <div
-        class="sc-jSMfEi cnrVoF"
+        class="sc-gKXOVf"
       >
         <input
-          class="sc-gKXOVf biPGXY"
+          class="sc-iBkjds cXumfC"
           type="submit"
           value="Save review"
         />
         <button
-          class="sc-iBkjds eqCWbf"
+          class="sc-ftvSup fvxwto"
         >
           Clear review
         </button>
       </div>
     </form>
-  </div>
+  </section>
 </div>
 `;
